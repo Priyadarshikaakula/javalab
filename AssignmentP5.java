@@ -1,10 +1,10 @@
-abstract class LibraryItem {
+ class LibraryItem {
     private String title;
     protected int itemId;
     protected boolean issued;
     LibraryItem(String title, int itemId) {
         this.title = title;
-        this.itemId = itemId;
+        this.itemId = itemId;abstract
         this.issued = false;
     }
     public String getTitle() {
